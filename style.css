@@ -1,0 +1,73 @@
+@import url("components/cards.css");
+
+#banner{
+	background-image:url(https://cdn.pixabay.com/photo/2019/07/05/16/11/pilon-4318964_1280.jpg);
+	background-size: cover;
+}
+
+h2{
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	color:black;
+	front-size:100px;
+}
+
+h2{
+  color: darkolivegreen;
+	font-size: 25px;
+	text-decoration:underline;
+}
+h4{
+	text-align: center;
+	font-size:30px;
+}
+h5{
+	font-size: 20px;
+}
+
+img{
+	width:200px;
+	height:250px;
+	border-radius:50%;
+	display: block;
+  width: 30%;
+  margin: auto
+}
+body {
+color: rgb(30, 30, 30);
+text-decoration:none;
+background-color: #dad7cd;
+}
+
+link {
+color: #29222e; 
+}
+link:hover {
+color: #363145; 
+}
+
+.img-circle
+{
+	border-radius:50%;
+}
+.shadowed{
+	box-shadow:5px 5px 3px black;
+}
+.lehaut{
+	border-right:2px dashed darkolivegreen;
+	border-bottom:2px dashed darkolivegreen;
+	border-top:2px dashed darkolivegreen;
+	border-left:2px dashed darkolivegreen;
+}
+
+.container{
+	width:850px;
+	margin:0 auto;
+	background: ghostwhite;                         /* White background */
+	padding: 40px;                             /* Internal space */
+	border-radius: 10px;                        /* Small radius */
+	box-shadow: 0 10px 30px rgba(0,0,0,0.2); /* Light shadow */
+}
